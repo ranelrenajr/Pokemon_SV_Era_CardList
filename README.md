@@ -76,9 +76,9 @@ print(cards[0])
 * [ ] Provide CSV + SQLite versions for easier data manipulation
 
 ---
-Scarlet & Violet Era Sets
-✅  Base Set (198)
-✅  Paldea Evolved (193)
+## Scarlet & Violet Era Sets
+* [x]  Base Set (198)
+* [x]  Paldea Evolved (193)
 * [ ]  Obsidian Flames (197)
 * [ ]  151 (Special) (165)
 * [ ]  Paradox Rift (182)
