@@ -1,4 +1,4 @@
-# Scarlet & Violet Pokémon TCG Data (SV Base Set 001–198)
+# Scarlet & Violet Pokémon TCG Data
 
 This repository contains **scraped and structured data** of all playable cards from the **Pokémon Scarlet & Violet Base Set** (cards #001–198).
 The goal of this project is to provide an easy-to-use dataset for research, deck building, data analysis, and hobby projects related to the Pokémon Trading Card Game (TCG).
@@ -8,7 +8,7 @@ The goal of this project is to provide an easy-to-use dataset for research, deck
 ## 📂 Repository Contents
 
 * `data/` – Raw and cleaned data of cards from the SV Base set.
-* `svi_001-198.json` – Full dataset in JSON format.
+* `Scarlet_and_violet_base_set.json` – Full dataset in JSON format.
 
 Each card entry typically includes:
 
