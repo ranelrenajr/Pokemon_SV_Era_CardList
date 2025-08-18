@@ -77,8 +77,8 @@ print(cards[0])
 
 ---
 Scarlet & Violet Era Sets
-* ✅  Base Set (198)
-* ✅  Paldea Evolved (193)
+✅  Base Set (198)
+✅  Paldea Evolved (193)
 * [ ]  Obsidian Flames (197)
 * [ ]  151 (Special) (165)
 * [ ]  Paradox Rift (182)
