@@ -76,6 +76,25 @@ print(cards[0])
 * [ ] Provide CSV + SQLite versions for easier data manipulation
 
 ---
+Scarlet & Violet Era Sets
+* [ ]  Base Set (198)
+* [ ]  Paldea Evolved (193)
+* [ ]  Obsidian Flames (197)
+* [ ]  151 (Special) (165)
+* [ ]  Paradox Rift (182)
+* [ ]  Paldean Fates (Special) (91)
+* [ ]  Temporal Forces (162)
+* [ ]  Twilight Masquerade (167)
+* [ ]  Shrouded Fable (Special) (64)
+* [ ]  Stellar Crown (142)
+* [ ]  Surging Sparks (191)
+* [ ]  Prismatic Evolutions (Special) (131)
+* [ ]  Journey Together (159)
+* [ ]  Destined Rivals (182)
+* [ ]  Black Bolt (Special) (86)
+* [ ]  White Flare (Special) (86)
+
+---
 
 ## 🤝 Contributing
 
