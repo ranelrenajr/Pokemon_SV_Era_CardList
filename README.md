@@ -8,7 +8,7 @@ The goal of this project is to provide an easy-to-use dataset for research, deck
 ## 📂 Repository Contents
 
 * `data/` – Raw and cleaned data of cards from the SV Base set.
-* `Scarlet_and_Violet_Base_Set.json` – Full dataset in JSON format.
+* `card_list_<set_id>.json` – Full dataset in JSON format per Set.
 
 Each card entry typically includes:
 
