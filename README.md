@@ -8,8 +8,7 @@ The goal of this project is to provide an easy-to-use dataset for research, deck
 ## 📂 Repository Contents
 
 * `data/` – Raw and cleaned data of cards from the SV Base set.
-* `cards_001-198.json` – Full dataset in JSON format.
-* (Optional: if you have other formats, list them, e.g. CSV, SQLite, etc.)
+* `svi_001-198.json` – Full dataset in JSON format.
 
 Each card entry typically includes:
 
