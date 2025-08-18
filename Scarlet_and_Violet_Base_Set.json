@@ -3735,7 +3735,8 @@
             "attacks": [
                 {
                     "cost": [
-                        "Psychic","Colorless"
+                        "Psychic",
+                        "Colorless"
                     ],
                     "name": "Magical Leaf",
                     "damage": "30+",
