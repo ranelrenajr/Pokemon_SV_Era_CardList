@@ -1,84 +1,3251 @@
 [
-{"id":"paf-001","name":"Pineco","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Grass"],"evolvesFrom":null,"attacks":[{"cost":["Grass","Grass"],"name":"Rollout","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-002","name":"Forretress ex","supertype":"Pokémon","subtypes":["Stage 1","ex","Tera"],"hp":"270","types":["Grass"],"evolvesFrom":"Pineco","attacks":[{"cost":["Grass","Grass"],"name":"Guard Press","damage":"120","text":"During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."}],"abilities":[{"name":"Exploding Energy","text":"Once during your turn, you may search your deck for up to 5 Basic G Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out."}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2","Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-003","name":"Maractus","supertype":"Pokémon","subtypes":["Basic"],"hp":"110","types":["Grass"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Double Draw","damage":"","text":"Draw 2 cards."},{"cost":["Colorless","Colorless","Colorless"],"name":"Pin Missile","damage":"30×","text":"Flip 4 coins. This attack does 30 damage for each heads."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-004","name":"Toedscool","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Grass"],"evolvesFrom":null,"attacks":[{"cost":["Grass"],"name":"Furious Kicks","damage":"10×","text":"Flip 3 coins. This attack does 10 damage for each heads."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-005","name":"Toedscruel ex","supertype":"Pokémon","subtypes":["Stage 1","ex"],"hp":"270","types":["Grass"],"evolvesFrom":"Toedscool","attacks":[{"cost":["Grass","Grass"],"name":"Colony Rush","damage":"80+","text":"This attack does 40 more damage for each of your Benched Pokémon that has any G Energy attached."}],"abilities":[{"name":"Protective Mycelium","text":"Prevent all effects of attacks used by your opponent’s Pokémon done to all of your Pokémon that have Energy attached. (Existing effects are not removed. Damage is not an effect.)"}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-006","name":"Espathra ex","supertype":"Pokémon","subtypes":["Stage 1","ex","Tera"],"hp":"260","types":["Grass"],"evolvesFrom":"Flittle","attacks":[{"cost":["Psychic"],"name":"Psy Ball","damage":"30+","text":"This attack does 30 more damage for each Energy attached to both Active Pokémon."}],"abilities":[{"name":"Dazzling Gaze","text":"As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon cost C more."}],"rules":["Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-007","name":"Charmander","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Fire"],"evolvesFrom":null,"attacks":[{"cost":["Fire"],"name":"Blazing Destruction","damage":"","text":"Discard a Stadium in play."},{"cost":["Fire","Fire"],"name":"Steady Firebreathing","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-008","name":"Charmeleon","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Fire"],"evolvesFrom":"Charmander","attacks":[{"cost":["Fire","Fire"],"name":"Combustion","damage":"50","text":""}],"abilities":[{"name":"Flare Veil","text":"Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)"}],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-009","name":"Magmar","supertype":"Pokémon","subtypes":["Basic"],"hp":"80","types":["Fire"],"evolvesFrom":null,"attacks":[{"cost":["Fire"],"name":"Collect","damage":"","text":"Draw a card."},{"cost":["Fire","Colorless"],"name":"Steady Firebreathing","damage":"40","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-010","name":"Magmortar","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"140","types":["Fire"],"evolvesFrom":"Magmar","attacks":[{"cost":["Fire"],"name":"Flare","damage":"40","text":""},{"cost":["Fire","Fire","Colorless"],"name":"Volcanic Heat","damage":"170","text":"During your next turn, this Pokémon can’t attack."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-011","name":"Numel","supertype":"Pokémon","subtypes":["Basic"],"hp":"80","types":["Fire"],"evolvesFrom":null,"attacks":[{"cost":["Fire"],"name":"Singe","damage":"","text":"Your opponent’s Active Pokémon is now Burned."},{"cost":["Fire","Fire","Colorless"],"name":"Heat Blast","damage":"60","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-012","name":"Camerupt","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Fire"],"evolvesFrom":"Numel","attacks":[{"cost":["Fire"],"name":"Super Singe","damage":"","text":"Your opponent’s Active Pokémon is now Burned."},{"cost":["Fire","Fire","Colorless"],"name":"Cinder Cannon","damage":"120+","text":"You may discard a F Energy from this Pokémon. If you do, this attack does 120 more damage."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-013","name":"Heat Rotom","supertype":"Pokémon","subtypes":["Basic"],"hp":"90","types":["Fire"],"evolvesFrom":null,"attacks":[{"cost":["Fire","Fire"],"name":"Heat Tackle","damage":"100","text":"This Pokémon also does 40 damage to itself."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-014","name":"Charcadet","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Fire"],"evolvesFrom":null,"attacks":[{"cost":["Fire","Fire","Colorless"],"name":"Heat Blast","damage":"60","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-015","name":"Armarouge","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Fire"],"evolvesFrom":"Charcadet","attacks":[{"cost":["Fire","Fire","Colorless"],"name":"Flame Cannon","damage":"90","text":"Your opponent’s Active Pokémon is now Burned."}],"abilities":[{"name":"Fire Off","text":"As often as you like during your turn, you may move a R Energy from 1 of your Benched Pokémon to your Active Pokémon."}],"rules":[],"weaknesses":[{"type":"Water","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-016","name":"Lapras","supertype":"Pokémon","subtypes":["Basic"],"hp":"110","types":["Water"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Into the Deep","damage":"","text":"Put up to 3 Basic Energy cards from your discard pile into your hand."},{"cost":["Water","Colorless"],"name":"Freeze-Dry","damage":"50","text":"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-017","name":"Frigibax","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Water"],"evolvesFrom":null,"attacks":[{"cost":["Water"],"name":"Collect","damage":"","text":"Draw a card."},{"cost":["Water","Colorless"],"name":"Beat","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-018","name":"Pikachu","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Lightning"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Growl","damage":"","text":"During your opponent’s next turn, the Defending Pokémon’s attacks do 20 less damage (before applying Weakness and Resistance)."},{"cost":["Lightning","Colorless"],"name":"Pika Bolt","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-019","name":"Raichu","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"120","types":["Lightning"],"evolvesFrom":"Pikachu","attacks":[{"cost":["Lightning","Lightning","Colorless"],"name":"Thunder","damage":"180","text":"This Pokémon also does 50 damage to itself."}],"abilities":[{"name":"Electrical Grounding","text":"When 1 of your Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, you may move a L Energy from that Pokémon to this Pokémon."}],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-020","name":"Chinchou","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Lightning"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Shine On","damage":"","text":"Look at the top card of your deck. You may put that card on the bottom of your deck."},{"cost":["Lightning","Colorless"],"name":"Tiny Charge","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-021","name":"Lanturn","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"120","types":["Lightning"],"evolvesFrom":"Chinchou","attacks":[{"cost":["Colorless","Colorless"],"name":"Lightning Ball","damage":"50","text":""},{"cost":["Lightning","Lightning","Colorless"],"name":"Aqua Spark","damage":"80+","text":"If this Pokémon has any W Energy attached, this attack does 120 more damage."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-022","name":"Kilowattrel","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"120","types":["Lightning"],"evolvesFrom":"Wattrel","attacks":[{"cost":["Colorless"],"name":"United Thunder","damage":"","text":"This attack does 10 damage for each Pokémon in your discard pile that has the United Wings attack to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"},{"cost":["Lightning","Colorless","Colorless"],"name":"Speed Wing","damage":"90","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Lightning","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":[]},
-{"id":"paf-023","name":"Exeggcute","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Hypnosis","damage":"","text":"Your opponent’s Active Pokémon is now Asleep."},{"cost":["Psychic","Colorless"],"name":"Rolling Tackle","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-024","name":"Exeggutor","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Psychic"],"evolvesFrom":"Exeggcute","attacks":[{"cost":["Psychic","Colorless"],"name":"Hypnoblast","damage":"30","text":"Your opponent’s Active Pokémon is now Asleep."},{"cost":["Psychic","Psychic","Colorless"],"name":"Psychic Loop","damage":"160","text":"Put 2 Energy attached to this Pokémon into your hand."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-025","name":"Natu","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Triple Strike","damage":"10×","text":"Flip 3 coins. This attack does 10 damage for each heads."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-026","name":"Xatu","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"100","types":["Psychic"],"evolvesFrom":"Natu","attacks":[{"cost":["Psychic","Colorless","Colorless"],"name":"Super Psy Bolt","damage":"80","text":""}],"abilities":[{"name":"Clairvoyant Sense","text":"Once during your turn, you may attach a Basic P Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards."}],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-027","name":"Ralts","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic","Colorless"],"name":"Psyshot","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-[{"id":"paf-028","name":"Kirlia","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Psychic"],"evolvesFrom":"Ralts","attacks":[{"cost":["Psychic","Colorless"],"name":"Magical Shot","damage":"30","text":""},{"cost":["Psychic","Psychic","Colorless"],"name":"Psychic","damage":"60+","text":"This attack does 20 more damage for each Energy attached to your opponent’s Active Pokémon."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-029","name":"Gardevoir ex","supertype":"Pokémon","subtypes":["Stage 2","ex"],"hp":"310","types":["Psychic"],"evolvesFrom":"Kirlia","attacks":[{"cost":["Psychic","Psychic","Colorless"],"name":"Miracle Force","damage":"190","text":"This Pokémon recovers from all Special Conditions."}],"abilities":[{"name":"Psychic Embrace","text":"As often as you like during your turn, you may attach a Basic P Energy card from your discard pile to 1 of your P Pokémon. If you attached Energy to a Pokémon in this way, put 2 damage counters on that Pokémon. You can’t use this Ability on a Pokémon that would be Knocked Out."}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-030","name":"Chimecho","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Colorless","Colorless"],"name":"Sleep Inducer","damage":"","text":"Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. The new Active Pokémon is now Asleep."},{"cost":["Psychic","Colorless","Colorless"],"name":"Psyshot","damage":"70","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-031","name":"Mime Jr.","supertype":"Pokémon","subtypes":["Basic"],"hp":"30","types":["Psychic"],"evolvesFrom":null,"attacks":[],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":[]},
-{"id":"paf-032","name":"Woobat","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Reckless Charge","damage":"30","text":"This Pokémon also does 10 damage to itself."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Lightning","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-033","name":"Swoobat","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Psychic"],"evolvesFrom":"Woobat","attacks":[{"cost":["Psychic"],"name":"Attraction Wave","damage":"30","text":"Your opponent’s Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Lightning","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-034","name":"Cottonee","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Fickle Attack","damage":"30","text":"Flip a coin. If tails, this attack does nothing."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-035","name":"Whimsicott","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Psychic"],"evolvesFrom":"Cottonee","attacks":[{"cost":["Psychic"],"name":"Fairy Wind","damage":"50","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":[]},
-{"id":"paf-036","name":"Dedenne","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Minor Errand-Running","damage":"","text":"Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."},{"cost":["Psychic","Colorless"],"name":"Spin Turn","damage":"50","text":"Switch this Pokémon with 1 of your Benched Pokémon."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-037","name":"Mimikyu","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic","Colorless"],"name":"Ghost Eye","damage":"","text":"Put 7 damage counters on your opponent’s Active Pokémon."}],"abilities":[{"name":"Safeguard","text":"Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon ex and Pokémon V."}],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-038","name":"Fidough","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Colorless","Colorless"],"name":"Rear Kick","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-039","name":"Dachsbun","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Psychic"],"evolvesFrom":"Fidough","attacks":[{"cost":["Psychic","Colorless","Colorless"],"name":"Headbutt Bounce","damage":"100","text":""}],"abilities":[{"name":"Well-Baked Body","text":"This Pokémon can’t be Burned. Prevent all damage done to this Pokémon by attacks from your opponent’s R Pokémon."}],"rules":[],"weaknesses":[{"type":"Metal","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-040","name":"Ceruledge","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"140","types":["Psychic"],"evolvesFrom":"Charcadet","attacks":[{"cost":["Colorless","Colorless"],"name":"Life Sucker","damage":"50","text":"Heal 30 damage from this Pokémon."},{"cost":["Psychic","Colorless","Colorless"],"name":"Fighting Sword","damage":"100+","text":"If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 100 more damage."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-041","name":"Flittle","supertype":"Pokémon","subtypes":["Basic"],"hp":"30","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic","Colorless"],"name":"Psy Bolt","damage":"20","text":"Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-042","name":"Greavard","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Psychic"],"name":"Graveyard Gamboling","damage":"10×","text":"This attack does 10 damage for each P Pokémon in your discard pile."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-043","name":"Houndstone","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"140","types":["Psychic"],"evolvesFrom":"Greavard","attacks":[{"cost":["Psychic","Psychic"],"name":"Last Respects","damage":"80+","text":"This attack does 10 more damage for each P Pokémon in your discard pile."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-044","name":"Gimmighoul","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Psychic"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Chest-ouflage","damage":"","text":"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."},{"cost":["Colorless"],"name":"Ram","damage":"10","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Darkness","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-045","name":"Mankey","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Fighting"],"evolvesFrom":null,"attacks":[{"cost":["Fighting"],"name":"Monkey Beatdown","damage":"30","text":"This Pokémon also does 10 damage to itself."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-046","name":"Primeape","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"90","types":["Fighting"],"evolvesFrom":"Mankey","attacks":[{"cost":["Fighting"],"name":"Raging Punch","damage":"70","text":"This Pokémon also does 20 damage to itself."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-047","name":"Annihilape","supertype":"Pokémon","subtypes":["Stage 2"],"hp":"140","types":["Fighting"],"evolvesFrom":"Primeape","attacks":[{"cost":["Fighting"],"name":"Rage Fist","damage":"70×","text":"This attack does 70 damage for each Prize card your opponent has taken."},{"cost":["Fighting","Fighting"],"name":"Dynamite Punch","damage":"170","text":"This Pokémon also does 50 damage to itself."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-048","name":"Phanpy","supertype":"Pokémon","subtypes":["Basic"],"hp":"80","types":["Fighting"],"evolvesFrom":null,"attacks":[{"cost":["Colorless","Colorless"],"name":"Strength","damage":"30","text":""},{"cost":["Fighting","Fighting","Colorless"],"name":"Rolling Tackle","damage":"60","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-049","name":"Donphan","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"150","types":["Fighting"],"evolvesFrom":"Phanpy","attacks":[{"cost":["Colorless","Colorless"],"name":"Cragalanche","damage":"30","text":"Discard the top 2 cards of your opponent’s deck."},{"cost":["Fighting","Fighting","Colorless"],"name":"Powerful Spin","damage":"160","text":"During your next turn, this Pokémon can’t attack."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-050","name":"Barboach","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Fighting"],"evolvesFrom":null,"attacks":[{"cost":["Fighting"],"name":"Hide","damage":"","text":"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."},{"cost":["Fighting","Colorless"],"name":"Mud-Slap","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-051","name":"Clobbopus","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Fighting"],"evolvesFrom":null,"attacks":[{"cost":["Fighting"],"name":"Feint","damage":"20","text":"This attack’s damage isn’t affected by Resistance."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-052","name":"Grapploct","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"120","types":["Fighting"],"evolvesFrom":"Clobbopus","attacks":[{"cost":["Fighting"],"name":"Slow-Acting Syncope","damage":"30","text":"At the end of your opponent’s next turn, the Defending Pokémon will be Knocked Out."},{"cost":["Fighting","Fighting","Colorless"],"name":"Mach Cross","damage":"120","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-053","name":"Great Tusk ex","supertype":"Pokémon","subtypes":["Basic","ex","Ancient"],"hp":"250","types":["Fighting"],"evolvesFrom":null,"attacks":[{"cost":["Fighting","Colorless","Colorless","Colorless"],"name":"Great Bash","damage":"260","text":"This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."}],"abilities":[{"name":"Quaking Demolition","text":"Once at the end of your turn (after your attack), if this Pokémon is in the Active Spot, you must discard the top 5 cards of your deck."}],"rules":[],"weaknesses":[{"type":"Psychic","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless","Colorless"]},
-{"id":"paf-054","name":"Charizard ex","supertype":"Pokémon","subtypes":["Stage 2","ex","Tera"],"hp":"330","types":["Darkness"],"evolvesFrom":"Charmeleon","attacks":[{"cost":["Fire","Fire"],"name":"Burning Darkness","damage":"180+","text":"This attack does 30 more damage for each Prize card your opponent has taken."}],"abilities":[{"name":"Infernal Reign","text":"When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic R Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2","Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-055","name":"Gastly","supertype":"Pokémon","subtypes":["Basic"],"hp":"50","types":["Darkness"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Allure","damage":"","text":"Draw a card."},{"cost":["Darkness","Colorless"],"name":"Will-O-Wisp","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-056","name":"Haunter","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"80","types":["Darkness"],"evolvesFrom":"Gastly","attacks":[{"cost":["Darkness","Colorless"],"name":"Dark Slumber","damage":"40","text":"Your opponent’s Active Pokémon is now Asleep."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-057","name":"Gengar","supertype":"Pokémon","subtypes":["Stage 2"],"hp":"130","types":["Darkness"],"evolvesFrom":"Haunter","attacks":[{"cost":["Darkness","Colorless"],"name":"Nightmare","damage":"100","text":"Your opponent’s Active Pokémon is now Asleep."}],"abilities":[{"name":"Night Gate","text":"Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon."}],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-058","name":"Paldean Wooper","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Darkness"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Find a Home","damage":"","text":"Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck."},{"cost":["Darkness"],"name":"Ram","damage":"10","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-059","name":"Paldean Clodsire ex","supertype":"Pokémon","subtypes":["Stage 1","ex","Paldean"],"hp":"280","types":["Darkness"],"evolvesFrom":"Paldean Wooper","attacks":[{"cost":["Darkness","Colorless","Colorless"],"name":"Needle Bone","damage":"200","text":"Flip a coin. If tails, during your next turn, this Pokémon can’t attack."}],"abilities":[{"name":"Toxic Wetland","text":"Once during your turn, if a Stadium is in play, you may make your opponent’s Active Pokémon Poisoned."}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-060","name":"Scraggy","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Darkness"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Low Kick","damage":"10","text":""},{"cost":["Darkness","Darkness","Colorless"],"name":"Headstrike","damage":"50","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-061","name":"Scrafty","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"120","types":["Darkness"],"evolvesFrom":"Scraggy","attacks":[{"cost":["Colorless"],"name":"Lambaste","damage":"30","text":"If the Defending Pokémon is a Basic Pokémon, it can’t attack during your opponent’s next turn."},{"cost":["Darkness","Darkness","Colorless"],"name":"Headbang","damage":"130","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-062","name":"Maschiff","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Darkness"],"evolvesFrom":null,"attacks":[{"cost":["Darkness"],"name":"Ambush","damage":"10+","text":"Flip a coin. If heads, this attack does 20 more damage."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-063","name":"Mabosstiff","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Darkness"],"evolvesFrom":"Maschiff","attacks":[{"cost":["Darkness","Darkness","Colorless"],"name":"Wild Tackle","damage":"160","text":"This Pokémon also does 30 damage to itself."}],"abilities":[{"name":"Intimidating Howl","text":"Once during your turn, you may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"}],"rules":[],"weaknesses":[{"type":"Grass","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-064","name":"Varoom","supertype":"Pokémon","subtypes":["Basic"],"hp":"60","types":["Metal"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Rev","damage":"","text":"Put up to 2 Basic Energy cards from your discard pile into your hand."},{"cost":["Metal","Colorless"],"name":"Headbutt","damage":"20","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[{"type":"Grass","value":"-30"}],"retreatCost":["Colorless"]},
-{"id":"paf-065","name":"Revavroom","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"140","types":["Metal"],"evolvesFrom":"Varoom","attacks":[{"cost":["Metal","Colorless","Colorless","Colorless"],"name":"Knock Away","damage":"90+","text":"Flip a coin. If heads, this attack does 90 more damage."}],"abilities":[{"name":"Rumbling Engine","text":"You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."}],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[{"type":"Grass","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-066","name":"Iron Treads ex","supertype":"Pokémon","subtypes":["Basic","ex","Future"],"hp":"220","types":["Metal"],"evolvesFrom":null,"attacks":[{"cost":["Metal","Metal","Colorless"],"name":"Iron-Clad Roll","damage":"150","text":"After doing damage, you may discard all Future Booster Energy Capsules from this Pokémon. If you do, during your opponent’s next turn, this Pokémon takes 150 less damage from attacks (after applying Weakness and Resistance)."}],"abilities":[],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[{"type":"Grass","value":"-30"}],"retreatCost":["Colorless","Colorless","Colorless"]},
-{"id":"paf-067","name":"Gholdengo","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Metal"],"evolvesFrom":"Gimmighoul","attacks":[{"cost":["Colorless"],"name":"Lavish Hospitality","damage":"","text":"You may attach any number of Basic M Energy cards from your hand to your Pokémon in any way you like."},{"cost":["Metal","Colorless","Colorless"],"name":"Scintillating Surfing","damage":"80×","text":"Flip a coin for each M Energy attached to this Pokémon. This attack does 80 damage for each heads."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fire","value":"×2"}],"resistances":[{"type":"Grass","value":"-30"}],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-068","name":"Noibat","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Dragon"],"evolvesFrom":null,"attacks":[{"cost":["Psychic","Darkness"],"name":"Gust","damage":"40","text":""}],"abilities":[],"rules":[],"weaknesses":[],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-069","name":"Noivern ex","supertype":"Pokémon","subtypes":["Stage 1","ex"],"hp":"260","types":["Dragon"],"evolvesFrom":"Noibat","attacks":[{"cost":["Colorless","Colorless"],"name":"Covert Flight","damage":"70","text":"During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon."},{"cost":["Psychic","Darkness"],"name":"Dominating Echo","damage":"140","text":"During your opponent’s next turn, they can’t play any Special Energy or Stadium cards from their hand."}],"abilities":[],"rules":[],"weaknesses":[],"resistances":[],"retreatCost":[]},
-{"id":"paf-070","name":"Cyclizar","supertype":"Pokémon","subtypes":["Basic"],"hp":"120","types":["Dragon"],"evolvesFrom":null,"attacks":[{"cost":["Grass","Darkness","Colorless"],"name":"Acceleration Drive","damage":"100","text":"Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."}],"abilities":[],"rules":[],"weaknesses":[],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-071","name":"Lechonk","supertype":"Pokémon","subtypes":["Basic"],"hp":"70","types":["Colorless"],"evolvesFrom":null,"attacks":[{"cost":["Colorless","Colorless","Colorless"],"name":"Whimsy Tackle","damage":"70","text":"Flip a coin. If tails, this attack does nothing."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-072","name":"Oinkologne","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"130","types":["Colorless"],"evolvesFrom":"Lechonk","attacks":[{"cost":["Colorless","Colorless"],"name":"Finest Selection","damage":"","text":"Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand."},{"cost":["Colorless","Colorless","Colorless"],"name":"Perfume Press","damage":"70","text":"Your opponent’s Active Pokémon is now Confused."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless","Colorless"]},
-{"id":"paf-073","name":"Tandemaus","supertype":"Pokémon","subtypes":["Basic"],"hp":"30","types":["Colorless"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Collect","damage":"","text":"Draw 2 cards."},{"cost":["Colorless","Colorless","Colorless"],"name":"Gentle Slap","damage":"30","text":""}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-074","name":"Maushold","supertype":"Pokémon","subtypes":["Stage 1"],"hp":"70","types":["Colorless"],"evolvesFrom":"Tandemaus","attacks":[{"cost":["Colorless"],"name":"Slap","damage":"40","text":""},{"cost":["Colorless","Colorless"],"name":"Family Attack","damage":"70×","text":"This attack does 70 damage for each of your Maushold in play."}],"abilities":[],"rules":[],"weaknesses":[{"type":"Fighting","value":"×2"}],"resistances":[],"retreatCost":["Colorless"]},
-{"id":"paf-075","name":"Squawkabilly ex","supertype":"Pokémon","subtypes":["Basic","ex"],"hp":"160","types":["Colorless"],"evolvesFrom":null,"attacks":[{"cost":["Colorless"],"name":"Motivate","damage":"20","text":"Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."}],"abilities":[{"name":"Squawk and Seize","text":"Once during your first turn, you may discard your hand and draw 6 cards. You can’t use more than 1 Squawk and Seize Ability during your turn."}],"rules":["Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"],"weaknesses":[{"type":"Lightning","value":"×2"}],"resistances":[{"type":"Fighting","value":"-30"}],"retreatCost":["Colorless"]},
-{
+  {
+    "id": "paf-001",
+    "name": "Pineco",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "name": "Rollout",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-002",
+    "name": "Forretress ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex",
+      "Tera"
+    ],
+    "hp": "270",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Pineco",
+    "attacks": [
+      {
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "name": "Guard Press",
+        "damage": "120",
+        "text": "During your opponent’s next turn, this Pokémon takes 30 less damage from attacks (after applying Weakness and Resistance)."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Exploding Energy",
+        "text": "Once during your turn, you may search your deck for up to 5 Basic G Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck. If you searched your deck in this way, this Pokémon is Knocked Out."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2",
+      "Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-003",
+    "name": "Maractus",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "110",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Double Draw",
+        "damage": "",
+        "text": "Draw 2 cards."
+      },
+      {
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Pin Missile",
+        "damage": "30×",
+        "text": "Flip 4 coins. This attack does 30 damage for each heads."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-004",
+    "name": "Toedscool",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Grass"
+        ],
+        "name": "Furious Kicks",
+        "damage": "10×",
+        "text": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-005",
+    "name": "Toedscruel ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "hp": "270",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Toedscool",
+    "attacks": [
+      {
+        "cost": [
+          "Grass",
+          "Grass"
+        ],
+        "name": "Colony Rush",
+        "damage": "80+",
+        "text": "This attack does 40 more damage for each of your Benched Pokémon that has any G Energy attached."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Protective Mycelium",
+        "text": "Prevent all effects of attacks used by your opponent’s Pokémon done to all of your Pokémon that have Energy attached. (Existing effects are not removed. Damage is not an effect.)"
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-006",
+    "name": "Espathra ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex",
+      "Tera"
+    ],
+    "hp": "260",
+    "types": [
+      "Grass"
+    ],
+    "evolvesFrom": "Flittle",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Psy Ball",
+        "damage": "30+",
+        "text": "This attack does 30 more damage for each Energy attached to both Active Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Dazzling Gaze",
+        "text": "As long as this Pokémon is in the Active Spot, attacks used by your opponent’s Active Pokémon cost C more."
+      }
+    ],
+    "rules": [
+      "Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-007",
+    "name": "Charmander",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fire"
+        ],
+        "name": "Blazing Destruction",
+        "damage": "",
+        "text": "Discard a Stadium in play."
+      },
+      {
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "name": "Steady Firebreathing",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-008",
+    "name": "Charmeleon",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charmander",
+    "attacks": [
+      {
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "name": "Combustion",
+        "damage": "50",
+        "text": ""
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Flare Veil",
+        "text": "Prevent all effects of attacks used by your opponent’s Pokémon done to this Pokémon. (Damage is not an effect.)"
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-009",
+    "name": "Magmar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fire"
+        ],
+        "name": "Collect",
+        "damage": "",
+        "text": "Draw a card."
+      },
+      {
+        "cost": [
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Steady Firebreathing",
+        "damage": "40",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-010",
+    "name": "Magmortar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "140",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Magmar",
+    "attacks": [
+      {
+        "cost": [
+          "Fire"
+        ],
+        "name": "Flare",
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Volcanic Heat",
+        "damage": "170",
+        "text": "During your next turn, this Pokémon can’t attack."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-011",
+    "name": "Numel",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fire"
+        ],
+        "name": "Singe",
+        "damage": "",
+        "text": "Your opponent’s Active Pokémon is now Burned."
+      },
+      {
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Heat Blast",
+        "damage": "60",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-012",
+    "name": "Camerupt",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Numel",
+    "attacks": [
+      {
+        "cost": [
+          "Fire"
+        ],
+        "name": "Super Singe",
+        "damage": "",
+        "text": "Your opponent’s Active Pokémon is now Burned."
+      },
+      {
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Cinder Cannon",
+        "damage": "120+",
+        "text": "You may discard a F Energy from this Pokémon. If you do, this attack does 120 more damage."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-013",
+    "name": "Heat Rotom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "90",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "name": "Heat Tackle",
+        "damage": "100",
+        "text": "This Pokémon also does 40 damage to itself."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-014",
+    "name": "Charcadet",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Heat Blast",
+        "damage": "60",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-015",
+    "name": "Armarouge",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Fire"
+    ],
+    "evolvesFrom": "Charcadet",
+    "attacks": [
+      {
+        "cost": [
+          "Fire",
+          "Fire",
+          "Colorless"
+        ],
+        "name": "Flame Cannon",
+        "damage": "90",
+        "text": "Your opponent’s Active Pokémon is now Burned."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Fire Off",
+        "text": "As often as you like during your turn, you may move a R Energy from 1 of your Benched Pokémon to your Active Pokémon."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Water",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-016",
+    "name": "Lapras",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "110",
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Into the Deep",
+        "damage": "",
+        "text": "Put up to 3 Basic Energy cards from your discard pile into your hand."
+      },
+      {
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "name": "Freeze-Dry",
+        "damage": "50",
+        "text": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-017",
+    "name": "Frigibax",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Water"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Water"
+        ],
+        "name": "Collect",
+        "damage": "",
+        "text": "Draw a card."
+      },
+      {
+        "cost": [
+          "Water",
+          "Colorless"
+        ],
+        "name": "Beat",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-018",
+    "name": "Pikachu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Growl",
+        "damage": "",
+        "text": "During your opponent’s next turn, the Defending Pokémon’s attacks do 20 less damage (before applying Weakness and Resistance)."
+      },
+      {
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "name": "Pika Bolt",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-019",
+    "name": "Raichu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": "Pikachu",
+    "attacks": [
+      {
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "name": "Thunder",
+        "damage": "180",
+        "text": "This Pokémon also does 50 damage to itself."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Electrical Grounding",
+        "text": "When 1 of your Pokémon is Knocked Out by damage from an attack from your opponent’s Pokémon, you may move a L Energy from that Pokémon to this Pokémon."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-020",
+    "name": "Chinchou",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Shine On",
+        "damage": "",
+        "text": "Look at the top card of your deck. You may put that card on the bottom of your deck."
+      },
+      {
+        "cost": [
+          "Lightning",
+          "Colorless"
+        ],
+        "name": "Tiny Charge",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-021",
+    "name": "Lanturn",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": "Chinchou",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Lightning Ball",
+        "damage": "50",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Lightning",
+          "Lightning",
+          "Colorless"
+        ],
+        "name": "Aqua Spark",
+        "damage": "80+",
+        "text": "If this Pokémon has any W Energy attached, this attack does 120 more damage."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-022",
+    "name": "Kilowattrel",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Lightning"
+    ],
+    "evolvesFrom": "Wattrel",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "United Thunder",
+        "damage": "",
+        "text": "This attack does 10 damage for each Pokémon in your discard pile that has the United Wings attack to 1 of your opponent’s Benched Pokémon. (Don’t apply Weakness and Resistance for Benched Pokémon.)"
+      },
+      {
+        "cost": [
+          "Lightning",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Speed Wing",
+        "damage": "90",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": []
+  },
+  {
+    "id": "paf-023",
+    "name": "Exeggcute",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Hypnosis",
+        "damage": "",
+        "text": "Your opponent’s Active Pokémon is now Asleep."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Rolling Tackle",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-024",
+    "name": "Exeggutor",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Exeggcute",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Hypnoblast",
+        "damage": "30",
+        "text": "Your opponent’s Active Pokémon is now Asleep."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Psychic Loop",
+        "damage": "160",
+        "text": "Put 2 Energy attached to this Pokémon into your hand."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-025",
+    "name": "Natu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Triple Strike",
+        "damage": "10×",
+        "text": "Flip 3 coins. This attack does 10 damage for each heads."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-026",
+    "name": "Xatu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "100",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Natu",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Super Psy Bolt",
+        "damage": "80",
+        "text": ""
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Clairvoyant Sense",
+        "text": "Once during your turn, you may attach a Basic P Energy card from your hand to 1 of your Benched Pokémon. If you attached Energy to a Pokémon in this way, draw 2 cards."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-027",
+    "name": "Ralts",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Psyshot",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-028",
+    "name": "Kirlia",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Ralts",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Magical Shot",
+        "damage": "30",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Psychic",
+        "damage": "60+",
+        "text": "This attack does 20 more damage for each Energy attached to your opponent’s Active Pokémon."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-029",
+    "name": "Gardevoir ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex"
+    ],
+    "hp": "310",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Kirlia",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Miracle Force",
+        "damage": "190",
+        "text": "This Pokémon recovers from all Special Conditions."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Psychic Embrace",
+        "text": "As often as you like during your turn, you may attach a Basic P Energy card from your discard pile to 1 of your P Pokémon. If you attached Energy to a Pokémon in this way, put 2 damage counters on that Pokémon. You can’t use this Ability on a Pokémon that would be Knocked Out."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"
+    ],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-030",
+    "name": "Chimecho",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Sleep Inducer",
+        "damage": "",
+        "text": "Switch in 1 of your opponent’s Benched Pokémon to the Active Spot. The new Active Pokémon is now Asleep."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Psyshot",
+        "damage": "70",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-031",
+    "name": "Mime Jr.",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "30",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": []
+  },
+  {
+    "id": "paf-032",
+    "name": "Woobat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Reckless Charge",
+        "damage": "30",
+        "text": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-033",
+    "name": "Swoobat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Woobat",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Attraction Wave",
+        "damage": "30",
+        "text": "Your opponent’s Active Pokémon is now Confused. Put 6 damage counters instead of 3 on that Pokémon for this Special Condition."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-034",
+    "name": "Cottonee",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Fickle Attack",
+        "damage": "30",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-035",
+    "name": "Whimsicott",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Cottonee",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Fairy Wind",
+        "damage": "50",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": []
+  },
+  {
+    "id": "paf-036",
+    "name": "Dedenne",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Minor Errand-Running",
+        "damage": "",
+        "text": "Search your deck for up to 2 Basic Energy cards, reveal them, and put them into your hand. Then, shuffle your deck."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Spin Turn",
+        "damage": "50",
+        "text": "Switch this Pokémon with 1 of your Benched Pokémon."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-037",
+    "name": "Mimikyu",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Ghost Eye",
+        "damage": "",
+        "text": "Put 7 damage counters on your opponent’s Active Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Safeguard",
+        "text": "Prevent all damage done to this Pokémon by attacks from your opponent’s Pokémon ex and Pokémon V."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-038",
+    "name": "Fidough",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Rear Kick",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-039",
+    "name": "Dachsbun",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Fidough",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Headbutt Bounce",
+        "damage": "100",
+        "text": ""
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Well-Baked Body",
+        "text": "This Pokémon can’t be Burned. Prevent all damage done to this Pokémon by attacks from your opponent’s R Pokémon."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Metal",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-040",
+    "name": "Ceruledge",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "140",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Charcadet",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Life Sucker",
+        "damage": "50",
+        "text": "Heal 30 damage from this Pokémon."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Fighting Sword",
+        "damage": "100+",
+        "text": "If your opponent’s Active Pokémon is a Pokémon ex or Pokémon V, this attack does 100 more damage."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-041",
+    "name": "Flittle",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "30",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Colorless"
+        ],
+        "name": "Psy Bolt",
+        "damage": "20",
+        "text": "Flip a coin. If heads, your opponent’s Active Pokémon is now Paralyzed."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-042",
+    "name": "Greavard",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic"
+        ],
+        "name": "Graveyard Gamboling",
+        "damage": "10×",
+        "text": "This attack does 10 damage for each P Pokémon in your discard pile."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-043",
+    "name": "Houndstone",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "140",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": "Greavard",
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Psychic"
+        ],
+        "name": "Last Respects",
+        "damage": "80+",
+        "text": "This attack does 10 more damage for each P Pokémon in your discard pile."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-044",
+    "name": "Gimmighoul",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Psychic"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Chest-ouflage",
+        "damage": "",
+        "text": "Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."
+      },
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Ram",
+        "damage": "10",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Darkness",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-045",
+    "name": "Mankey",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Monkey Beatdown",
+        "damage": "30",
+        "text": "This Pokémon also does 10 damage to itself."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-046",
+    "name": "Primeape",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "90",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Mankey",
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Raging Punch",
+        "damage": "70",
+        "text": "This Pokémon also does 20 damage to itself."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-047",
+    "name": "Annihilape",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "140",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Primeape",
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Rage Fist",
+        "damage": "70×",
+        "text": "This attack does 70 damage for each Prize card your opponent has taken."
+      },
+      {
+        "cost": [
+          "Fighting",
+          "Fighting"
+        ],
+        "name": "Dynamite Punch",
+        "damage": "170",
+        "text": "This Pokémon also does 50 damage to itself."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-048",
+    "name": "Phanpy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "80",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Strength",
+        "damage": "30",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "name": "Rolling Tackle",
+        "damage": "60",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-049",
+    "name": "Donphan",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "150",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Phanpy",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Cragalanche",
+        "damage": "30",
+        "text": "Discard the top 2 cards of your opponent’s deck."
+      },
+      {
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "name": "Powerful Spin",
+        "damage": "160",
+        "text": "During your next turn, this Pokémon can’t attack."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-050",
+    "name": "Barboach",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Hide",
+        "damage": "",
+        "text": "Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."
+      },
+      {
+        "cost": [
+          "Fighting",
+          "Colorless"
+        ],
+        "name": "Mud-Slap",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-051",
+    "name": "Clobbopus",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Feint",
+        "damage": "20",
+        "text": "This attack’s damage isn’t affected by Resistance."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-052",
+    "name": "Grapploct",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": "Clobbopus",
+    "attacks": [
+      {
+        "cost": [
+          "Fighting"
+        ],
+        "name": "Slow-Acting Syncope",
+        "damage": "30",
+        "text": "At the end of your opponent’s next turn, the Defending Pokémon will be Knocked Out."
+      },
+      {
+        "cost": [
+          "Fighting",
+          "Fighting",
+          "Colorless"
+        ],
+        "name": "Mach Cross",
+        "damage": "120",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-053",
+    "name": "Great Tusk ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex",
+      "Ancient"
+    ],
+    "hp": "250",
+    "types": [
+      "Fighting"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Fighting",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Great Bash",
+        "damage": "260",
+        "text": "This attack’s damage isn’t affected by any effects on your opponent’s Active Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Quaking Demolition",
+        "text": "Once at the end of your turn (after your attack), if this Pokémon is in the Active Spot, you must discard the top 5 cards of your deck."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Psychic",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-054",
+    "name": "Charizard ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2",
+      "ex",
+      "Tera"
+    ],
+    "hp": "330",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Charmeleon",
+    "attacks": [
+      {
+        "cost": [
+          "Fire",
+          "Fire"
+        ],
+        "name": "Burning Darkness",
+        "damage": "180+",
+        "text": "This attack does 30 more damage for each Prize card your opponent has taken."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Infernal Reign",
+        "text": "When you play this Pokémon from your hand to evolve 1 of your Pokémon during your turn, you may search your deck for up to 3 Basic R Energy cards and attach them to your Pokémon in any way you like. Then, shuffle your deck."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2",
+      "Tera Pokémon ex rule: As long as this Pokémon is on your Bench, prevent all damage"
+    ],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-055",
+    "name": "Gastly",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "50",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Allure",
+        "damage": "",
+        "text": "Draw a card."
+      },
+      {
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Will-O-Wisp",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-056",
+    "name": "Haunter",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "80",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Gastly",
+    "attacks": [
+      {
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Dark Slumber",
+        "damage": "40",
+        "text": "Your opponent’s Active Pokémon is now Asleep."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-057",
+    "name": "Gengar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 2"
+    ],
+    "hp": "130",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Haunter",
+    "attacks": [
+      {
+        "cost": [
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Nightmare",
+        "damage": "100",
+        "text": "Your opponent’s Active Pokémon is now Asleep."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Night Gate",
+        "text": "Once during your turn, you may switch your Active Pokémon with 1 of your Benched Pokémon."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-058",
+    "name": "Paldean Wooper",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Find a Home",
+        "damage": "",
+        "text": "Search your deck for a Stadium card, reveal it, and put it into your hand. Then, shuffle your deck."
+      },
+      {
+        "cost": [
+          "Darkness"
+        ],
+        "name": "Ram",
+        "damage": "10",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-059",
+    "name": "Paldean Clodsire ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex",
+      "Paldean"
+    ],
+    "hp": "280",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Paldean Wooper",
+    "attacks": [
+      {
+        "cost": [
+          "Darkness",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Needle Bone",
+        "damage": "200",
+        "text": "Flip a coin. If tails, during your next turn, this Pokémon can’t attack."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Toxic Wetland",
+        "text": "Once during your turn, if a Stadium is in play, you may make your opponent’s Active Pokémon Poisoned."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-060",
+    "name": "Scraggy",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Low Kick",
+        "damage": "10",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Headstrike",
+        "damage": "50",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-061",
+    "name": "Scrafty",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "120",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Scraggy",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Lambaste",
+        "damage": "30",
+        "text": "If the Defending Pokémon is a Basic Pokémon, it can’t attack during your opponent’s next turn."
+      },
+      {
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Headbang",
+        "damage": "130",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-062",
+    "name": "Maschiff",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Darkness"
+        ],
+        "name": "Ambush",
+        "damage": "10+",
+        "text": "Flip a coin. If heads, this attack does 20 more damage."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-063",
+    "name": "Mabosstiff",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Darkness"
+    ],
+    "evolvesFrom": "Maschiff",
+    "attacks": [
+      {
+        "cost": [
+          "Darkness",
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Wild Tackle",
+        "damage": "160",
+        "text": "This Pokémon also does 30 damage to itself."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Intimidating Howl",
+        "text": "Once during your turn, you may switch out your opponent’s Active Pokémon to the Bench. (Your opponent chooses the new Active Pokémon.)"
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Grass",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-064",
+    "name": "Varoom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "60",
+    "types": [
+      "Metal"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Rev",
+        "damage": "",
+        "text": "Put up to 2 Basic Energy cards from your discard pile into your hand."
+      },
+      {
+        "cost": [
+          "Metal",
+          "Colorless"
+        ],
+        "name": "Headbutt",
+        "damage": "20",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-065",
+    "name": "Revavroom",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "140",
+    "types": [
+      "Metal"
+    ],
+    "evolvesFrom": "Varoom",
+    "attacks": [
+      {
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Knock Away",
+        "damage": "90+",
+        "text": "Flip a coin. If heads, this attack does 90 more damage."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Rumbling Engine",
+        "text": "You must discard an Energy card from your hand in order to use this Ability. Once during your turn, you may draw cards until you have 6 cards in your hand."
+      }
+    ],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-066",
+    "name": "Iron Treads ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex",
+      "Future"
+    ],
+    "hp": "220",
+    "types": [
+      "Metal"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Metal",
+          "Metal",
+          "Colorless"
+        ],
+        "name": "Iron-Clad Roll",
+        "damage": "150",
+        "text": "After doing damage, you may discard all Future Booster Energy Capsules from this Pokémon. If you do, during your opponent’s next turn, this Pokémon takes 150 less damage from attacks (after applying Weakness and Resistance)."
+      }
+    ],
+    "abilities": [],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"
+    ],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-067",
+    "name": "Gholdengo",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Metal"
+    ],
+    "evolvesFrom": "Gimmighoul",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Lavish Hospitality",
+        "damage": "",
+        "text": "You may attach any number of Basic M Energy cards from your hand to your Pokémon in any way you like."
+      },
+      {
+        "cost": [
+          "Metal",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Scintillating Surfing",
+        "damage": "80×",
+        "text": "Flip a coin for each M Energy attached to this Pokémon. This attack does 80 damage for each heads."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fire",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Grass",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-068",
+    "name": "Noibat",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Dragon"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Psychic",
+          "Darkness"
+        ],
+        "name": "Gust",
+        "damage": "40",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-069",
+    "name": "Noivern ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1",
+      "ex"
+    ],
+    "hp": "260",
+    "types": [
+      "Dragon"
+    ],
+    "evolvesFrom": "Noibat",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Covert Flight",
+        "damage": "70",
+        "text": "During your opponent’s next turn, prevent all damage done to this Pokémon by attacks from Basic Pokémon."
+      },
+      {
+        "cost": [
+          "Psychic",
+          "Darkness"
+        ],
+        "name": "Dominating Echo",
+        "damage": "140",
+        "text": "During your opponent’s next turn, they can’t play any Special Energy or Stadium cards from their hand."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": []
+  },
+  {
+    "id": "paf-070",
+    "name": "Cyclizar",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "120",
+    "types": [
+      "Dragon"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Grass",
+          "Darkness",
+          "Colorless"
+        ],
+        "name": "Acceleration Drive",
+        "damage": "100",
+        "text": "Flip a coin. If heads, during your opponent’s next turn, prevent all damage from and effects of attacks done to this Pokémon."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-071",
+    "name": "Lechonk",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Whimsy Tackle",
+        "damage": "70",
+        "text": "Flip a coin. If tails, this attack does nothing."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-072",
+    "name": "Oinkologne",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "130",
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": "Lechonk",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Finest Selection",
+        "damage": "",
+        "text": "Flip 3 coins. Put a number of cards up to the number of heads from your discard pile into your hand."
+      },
+      {
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Perfume Press",
+        "damage": "70",
+        "text": "Your opponent’s Active Pokémon is now Confused."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless",
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-073",
+    "name": "Tandemaus",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic"
+    ],
+    "hp": "30",
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Collect",
+        "damage": "",
+        "text": "Draw 2 cards."
+      },
+      {
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Gentle Slap",
+        "damage": "30",
+        "text": ""
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-074",
+    "name": "Maushold",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Stage 1"
+    ],
+    "hp": "70",
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": "Tandemaus",
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Slap",
+        "damage": "40",
+        "text": ""
+      },
+      {
+        "cost": [
+          "Colorless",
+          "Colorless"
+        ],
+        "name": "Family Attack",
+        "damage": "70×",
+        "text": "This attack does 70 damage for each of your Maushold in play."
+      }
+    ],
+    "abilities": [],
+    "rules": [],
+    "weaknesses": [
+      {
+        "type": "Fighting",
+        "value": "×2"
+      }
+    ],
+    "resistances": [],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
+    "id": "paf-075",
+    "name": "Squawkabilly ex",
+    "supertype": "Pokémon",
+    "subtypes": [
+      "Basic",
+      "ex"
+    ],
+    "hp": "160",
+    "types": [
+      "Colorless"
+    ],
+    "evolvesFrom": null,
+    "attacks": [
+      {
+        "cost": [
+          "Colorless"
+        ],
+        "name": "Motivate",
+        "damage": "20",
+        "text": "Attach up to 2 Basic Energy cards from your discard pile to 1 of your Benched Pokémon."
+      }
+    ],
+    "abilities": [
+      {
+        "name": "Squawk and Seize",
+        "text": "Once during your first turn, you may discard your hand and draw 6 cards. You can’t use more than 1 Squawk and Seize Ability during your turn."
+      }
+    ],
+    "rules": [
+      "Pokémon ex rule: When your Pokémon ex is Knocked Out, your opponent takes 2"
+    ],
+    "weaknesses": [
+      {
+        "type": "Lightning",
+        "value": "×2"
+      }
+    ],
+    "resistances": [
+      {
+        "type": "Fighting",
+        "value": "-30"
+      }
+    ],
+    "retreatCost": [
+      "Colorless"
+    ]
+  },
+  {
     "id": "paf-076",
     "name": "Artazon",
     "supertype": "Trainer",
-    "subtypes": ["Stadium"],
+    "subtypes": [
+      "Stadium"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -96,7 +3263,9 @@
     "id": "paf-077",
     "name": "Atticus",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -115,7 +3284,9 @@
     "id": "paf-078",
     "name": "Clive",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -133,7 +3304,9 @@
     "id": "paf-079",
     "name": "Electric Generator",
     "supertype": "Trainer",
-    "subtypes": ["Item"],
+    "subtypes": [
+      "Item"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -151,7 +3324,9 @@
     "id": "paf-080",
     "name": "Iono",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -169,7 +3344,9 @@
     "id": "paf-081",
     "name": "Moonlit Hill",
     "supertype": "Trainer",
-    "subtypes": ["Stadium"],
+    "subtypes": [
+      "Stadium"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -187,7 +3364,9 @@
     "id": "paf-082",
     "name": "Nemona",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -205,7 +3384,9 @@
     "id": "paf-083",
     "name": "Nemona’s Backpack",
     "supertype": "Trainer",
-    "subtypes": ["Item"],
+    "subtypes": [
+      "Item"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -223,7 +3404,9 @@
     "id": "paf-084",
     "name": "Nest Ball",
     "supertype": "Trainer",
-    "subtypes": ["Item"],
+    "subtypes": [
+      "Item"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -241,7 +3424,9 @@
     "id": "paf-085",
     "name": "Paldean Student",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -259,7 +3444,9 @@
     "id": "paf-086",
     "name": "Paldean Student",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -277,7 +3464,9 @@
     "id": "paf-087",
     "name": "Professor’s Research (Professor Sada)",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -295,7 +3484,9 @@
     "id": "paf-088",
     "name": "Professor’s Research (Professor Turo)",
     "supertype": "Trainer",
-    "subtypes": ["Supporter"],
+    "subtypes": [
+      "Supporter"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -313,7 +3504,9 @@
     "id": "paf-089",
     "name": "Rare Candy",
     "supertype": "Trainer",
-    "subtypes": ["Item"],
+    "subtypes": [
+      "Item"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
@@ -331,13 +3524,20 @@
     "id": "paf-090",
     "name": "Technical Machine: Crisis Punch",
     "supertype": "Trainer",
-    "subtypes": ["Pokémon Tool"],
+    "subtypes": [
+      "Pokémon Tool"
+    ],
     "hp": null,
     "types": [],
     "evolvesFrom": null,
     "attacks": [
       {
-        "cost": ["Colorless","Colorless","Colorless","Colorless"],
+        "cost": [
+          "Colorless",
+          "Colorless",
+          "Colorless",
+          "Colorless"
+        ],
         "name": "Crisis Punch",
         "damage": "280",
         "text": "You can use this attack only when your opponent has exactly 1 Prize card remaining."
@@ -353,21 +3553,24 @@
     "retreatCost": []
   },
   {
-  "id": "paf-091",
-  "name": "Ultra Ball",
-  "supertype": "Trainer",
-  "subtypes": ["Item"],
-  "hp": null,
-  "types": [],
-  "evolvesFrom": null,
-  "attacks": [],
-  "abilities": [],
-  "rules": [
-    "You can use this card only if you discard 2 other cards from your hand.",
-    "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
-    "You may play any number of Item cards during your turn."
-  ],
-  "weaknesses": [],
-  "resistances": [],
-  "retreatCost": []
-}]
+    "id": "paf-091",
+    "name": "Ultra Ball",
+    "supertype": "Trainer",
+    "subtypes": [
+      "Item"
+    ],
+    "hp": null,
+    "types": [],
+    "evolvesFrom": null,
+    "attacks": [],
+    "abilities": [],
+    "rules": [
+      "You can use this card only if you discard 2 other cards from your hand.",
+      "Search your deck for a Pokémon, reveal it, and put it into your hand. Then, shuffle your deck.",
+      "You may play any number of Item cards during your turn."
+    ],
+    "weaknesses": [],
+    "resistances": [],
+    "retreatCost": []
+  }
+]
