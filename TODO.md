@@ -1,0 +1,4 @@
+- [ ] Upload the Scraper Iframe Angular App Here
+- [ ] Merge all JSON into one SUPER JSON File
+- [ ] Convert each card object to JSONL format to save lines of codes
+- [ ] Start creating the Custom GPT with the SUPER JSON FILE as Base Knowledge
